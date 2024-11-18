@@ -6,10 +6,10 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="md:mt-40 mt-10 max-w-2xl mx-auto px-4">
-      <h3 className="text-2xl text-center mb-4 text-yellow-500">
+      <h3 className="text-2xl lg:text-4xl font-bold text-center mb-4 text-yellow-500">
         I'M DABIT FAVOUR
       </h3>
-      <p className=" mb-10 md:text-xl">
+      <p className=" mb-10 md:text-lg">
         I'm a frontend developer with a solid foundation in software
         engineering. Graduating from ALX Software Engineering has equipped me
         with a strong skill set and a deep understanding of frontend development
@@ -20,6 +20,7 @@ const About = () => {
         eager to tackle new challenges and push the boundaries of what's
         possible in frontend development.
       </p>
+      
       <div className="flex justify-start space-x-8 lg:mb-20 md:mb-48 mb-10">
         <Link
           href="https://x.com/Favydabs?t=77N5famP4ylD-wU_Dmcn_g&s=09"
@@ -27,7 +28,7 @@ const About = () => {
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-black transition-colors"
         >
-          <Image src={X} alt="" width={40} className="rounded-full" />
+          <Image src={X} alt="" width={30} className="rounded-full" />
         </Link>
 
         <Link
@@ -36,14 +37,14 @@ const About = () => {
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-black transition-colors"
         >
-          <Image src={linkedin} alt="" width={40} className="rounded-full"/>
+          <Image src={linkedin} alt="" width={30} className="rounded-full"/>
         </Link>
 
         <Link
           href="mailto:favourdabit@gmail.com"
           className="text-gray-600 hover:text-black transition-colors"
         >
-          <Image src={email} alt="" width={40} className="rounded-full" />
+          <Image src={email} alt="" width={30} className="rounded-full" />
         </Link>
       </div>
     </div>

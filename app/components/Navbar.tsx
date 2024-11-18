@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <Image src={logo} alt="Logo" className="w-8 h-8 rounded-full" />
         </div>
-        <div className="flex gap-6  justify-center  py-4 px-6">
+        <div className="flex gap-6  justify-center  py-4 px-6 ">
           <Link
             href="/projects"
             className="text-sm font-medium transition-colors hover:text-primary"
