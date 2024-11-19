@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { Moon, SunMoon } from "lucide-react";
 import Image from "next/image";
-import logo from "@/public/logo.jpg";
+import { logo } from "../components/Images";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
@@ -21,7 +21,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="sticky top-4 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center  justify-between px-4 shadow-md rounded-full">
         <div className="flex items-center gap-2">
           <Image src={logo} alt="Logo" className="w-8 h-8 rounded-full" />

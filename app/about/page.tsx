@@ -1,7 +1,5 @@
 import Link from "next/link";
-import email from "@/public/assets/email.png";
-import X from "@/public/assets/X.png";
-import linkedin from "@/public/assets/linkedin.png";
+import { X, email, linkedin} from "../components/Images";
 import Image from "next/image";
 const About = () => {
   return (
