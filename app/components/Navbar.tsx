@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { Moon, SunMoon } from "lucide-react";
 import Image from "next/image";
-import logo from "@/public/logo.jpg";
+import logo from "../public/logo.jpg";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 

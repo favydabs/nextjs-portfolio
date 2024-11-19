@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from 'framer-motion';
-import counter from "@/public/assets/counter.png";
-import quizApp from "@/public/assets/quizApp.png";
-import snip1 from "@/public/assets/snip1.png";
-import youtubeClone from "@/public/assets/youtube_clone.png";
-import bankApp from "@/public/assets/bankApp.png";
-import todo from "@/public/assets/todo.png";
-import pacman from "@/public/assets/pacman.png";
+import { motion } from "framer-motion";
+import counter from "../public/assets/counter.png";
+import quizApp from "../public/assets/quizApp.png";
+import snip1 from "../public/assets/snip1.png";
+import youtubeClone from "../public/assets/youtube_clone.png";
+import bankApp from "../public/assets/bankApp.png";
+import todo from "../public/assets/todo.png";
+import pacman from "../public/assets/pacman.png";
 
 const projects = [
   {
@@ -68,25 +68,23 @@ const Projects = () => {
     <section className="py-16 px-8">
       <div>
         <p className="lg:text-2xl font-semibold lg:mb-10 mb-4">
-          These are the most recent projects I've worked on, however I've worked
-          on many throughout the years. Please get in touch with me if something
-          catches your attention.
+          {` These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.`}
         </p>
       </div>
       <h2 className="text-4xl font-bold text-blue-400 mb-8">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
-          <motion.div 
-            key={index} 
+          <motion.div
+            key={index}
             className="space-y-4"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <Link 
-              href={project.demo} 
-              target="_blank" 
+            <Link
+              href={project.demo}
+              target="_blank"
               rel="noopener noreferrer"
               className="block transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             >
