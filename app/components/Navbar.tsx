@@ -23,9 +23,10 @@ const Navbar = () => {
   return (
     <nav className="sticky top-4 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center  justify-between px-4 shadow-md rounded-full">
-        <div className="flex items-center gap-2">
-          <Image src={logo} alt="Logo" className="w-8 h-8 rounded-full" />
-        </div>
+        
+          <Link href="/">
+          <Image src={logo} alt="Logo" className="w-20 h-14 rounded-full" />
+          </Link>
         <div className="flex gap-6  justify-center  py-4 px-6 ">
           <Link
             href="/projects"
