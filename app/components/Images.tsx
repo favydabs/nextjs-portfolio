@@ -8,7 +8,7 @@
 import logo from "@/app/images/logo.png";
 import email from "@/app/images/email.png";
 import X from "@/app/images/X.png";
-// import linkedin from "@/app/images/linkedin.png";
+import linkedin from "@/app/images/linkedin.png";
 
 // export the images above
 export {
@@ -22,5 +22,5 @@ export {
   logo,
   email,
   X,
-  // linkedin,
+  linkedin,
 };
