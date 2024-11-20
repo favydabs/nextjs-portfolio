@@ -73,7 +73,7 @@ const Projects = () => {
           {` These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.`}
         </p>
       </div>
-      <h2 className="text-4xl font-bold text-blue-400 mb-8">My Projects</h2>
+      <h2 className="text-4xl font-bold text-yellow-500 mb-8">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <motion.div
@@ -114,4 +114,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
