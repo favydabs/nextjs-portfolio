@@ -1,4 +1,3 @@
-
 // import counter from "@/public/assets/counter.png";
 // import quizApp from "@/public/assets/quizApp.png";
 // import snip1 from "@/public/assets/snip1.png";
@@ -6,10 +5,10 @@
 // import bankApp from "@/public/assets/bankApp.png";
 // import todo from "@/public/assets/todo.png";
 // import pacman from "@/public/assets/pacman.png";
-import logo from "@/public/assets/logo.png";
-import email from "@/public/assets/email.png";
-import X from "@/public/assets/X.png";
-import linkedin from "@/public/assets/linkedin.png";
+import logo from "@/app/public/assets/logo.png";
+import email from "@/app/public/assets/email.png";
+import X from "@/app/public/assets/X.png";
+import linkedin from "@/app/public/assets/linkedin.png";
 
 // export the images above
 export {
