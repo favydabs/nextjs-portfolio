@@ -21,7 +21,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="sticky top-4 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="sticky top-2 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center  justify-between px-4 shadow-md rounded-full">
         <Link href="/">
           <Image src={logo} alt="Logo" className="w-20 h-14 rounded-full" />
