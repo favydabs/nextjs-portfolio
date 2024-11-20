@@ -10,7 +10,6 @@ import email from "@/public/assets/email.png";
 import X from "@/public/assets/X.png";
 import linkedin from "@/public/assets/linkedin.png";
 
-// export the images above
 export {
   counter,
   quizApp,
