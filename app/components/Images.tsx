@@ -5,10 +5,10 @@
 // import bankApp from "@/public/assets/bankApp.png";
 // import todo from "@/public/assets/todo.png";
 // import pacman from "@/public/assets/pacman.png";
-import logo from "@/app/public/assets/logo.png";
-import email from "@/app/public/assets/email.png";
-import X from "@/app/public/assets/X.png";
-import linkedin from "@/app/public/assets/linkedin.png";
+import logo from "@/app/images/logo.png";
+import email from "@/app/images/email.png";
+import X from "@/app/images/X.png";
+import linkedin from "@/app/images/linkedin.png";
 
 // export the images above
 export {
