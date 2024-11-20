@@ -1,5 +1,9 @@
 import Link from "next/link";
-import { X, email, linkedin } from "@/app/components/Images";
+import {
+  X,
+  email,
+  // linkedin
+} from "@/app/components/Images";
 import Image from "next/image";
 const About = () => {
   return (
@@ -42,14 +46,14 @@ I'm Favour Dabit
           <Image src={X} alt="" width={30} className="rounded-full" />
         </Link>
 
-        <Link
+        {/* <Link
           href="https://www.linkedin.com/in/dabit-favour-297b11250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-black transition-colors"
         >
           <Image src={linkedin} alt="" width={30} className="rounded-full" />
-        </Link>
+        </Link> */}
 
         <Link
           href="mailto:favourdabit@gmail.com"
