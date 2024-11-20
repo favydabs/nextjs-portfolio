@@ -4,51 +4,51 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  counter,
-  quizApp,
-  snip1,
-  youtubeClone,
-  bankApp,
+  // counter,
+  // quizApp,
+  // snip1,
+  // youtubeClone,
+  // bankApp,
   todo,
   pacman,
 } from "../components/Images";
 
 const projects = [
-  {
-    image: counter,
-    title: "Passenger-Counter-App",
-    description:
-      "This application is designed to streamline the process of tracking passenger numbers. It offers solutions associated with manual counting methods.",
-    demo: "https://boisterous-caramel-06d791.netlify.app",
-  },
-  {
-    image: quizApp,
-    title: "Quiz-App",
-    description:
-      "This application is designed to provide users with an interactive quiz experience. It presents users with a series of questions related to JavaScript programming.",
-    demo: "https://favydabs.github.io/Quiz-App/",
-  },
-  {
-    image: snip1,
-    title: "Ecommerce-Web-App",
-    description:
-      "The Ecommerce Web App is a fully-functional online platform designed to facilitate buying and selling of products or services over the internet.",
-    demo: "https://favydabs.github.io/Ecommerce-Web-App/",
-  },
-  {
-    image: youtubeClone,
-    title: "YouTube Clone",
-    description:
-      "This is a simplified version of YouTube, replicating some of its core functionalities. It serves as an educational tool for those interested in learning.",
-    demo: "https://deft-smakager-197191.netlify.app",
-  },
-  {
-    image: bankApp,
-    title: "Bank-Landing-Page",
-    description:
-      "The bank app is crafted to provide users with a seamless and secure banking experience. With a clean and intuitive interface.",
-    demo: "https://favydabs.github.io/Bank-landing-page/",
-  },
+  // {
+  //   image: counter,
+  //   title: "Passenger-Counter-App",
+  //   description:
+  //     "This application is designed to streamline the process of tracking passenger numbers. It offers solutions associated with manual counting methods.",
+  //   demo: "https://boisterous-caramel-06d791.netlify.app",
+  // },
+  // {
+  //   image: quizApp,
+  //   title: "Quiz-App",
+  //   description:
+  //     "This application is designed to provide users with an interactive quiz experience. It presents users with a series of questions related to JavaScript programming.",
+  //   demo: "https://favydabs.github.io/Quiz-App/",
+  // },
+  // {
+  //   image: snip1,
+  //   title: "Ecommerce-Web-App",
+  //   description:
+  //     "The Ecommerce Web App is a fully-functional online platform designed to facilitate buying and selling of products or services over the internet.",
+  //   demo: "https://favydabs.github.io/Ecommerce-Web-App/",
+  // },
+  // {
+  //   image: youtubeClone,
+  //   title: "YouTube Clone",
+  //   description:
+  //     "This is a simplified version of YouTube, replicating some of its core functionalities. It serves as an educational tool for those interested in learning.",
+  //   demo: "https://deft-smakager-197191.netlify.app",
+  // },
+  // {
+  //   image: bankApp,
+  //   title: "Bank-Landing-Page",
+  //   description:
+  //     "The bank app is crafted to provide users with a seamless and secure banking experience. With a clean and intuitive interface.",
+  //   demo: "https://favydabs.github.io/Bank-landing-page/",
+  // },
   {
     image: todo,
     title: "To-Do-List-App",
