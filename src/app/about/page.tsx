@@ -3,7 +3,7 @@ import {
   X,
   email,
   linkedin
-} from "@/app/components/Images";
+} from "@/src/app/components/Images";
 import Image from "next/image";
 const About = () => {
   return (

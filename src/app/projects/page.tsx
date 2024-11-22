@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -9,7 +10,7 @@ import {
   bankApp,
   todo,
   pacman,
-} from "../components/Images";
+} from "@/src/app/components/Images";
 
 const projects = [
   {
@@ -68,7 +69,7 @@ const Projects = () => {
     <section className="py-16 px-8">
       <div>
         <p className="lg:text-2xl font-semibold lg:mb-10 mb-4">
-          { These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.}
+          {`These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.`}
         </p>
       </div>
       <h2 className="text-4xl font-bold text-yellow-500 mb-8">My Projects</h2>
@@ -111,4 +112,4 @@ const Projects = () => {
   );
 };
 
-export default Projects; 
+export default Projects;
