@@ -87,9 +87,9 @@ const Projects = () => {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="block transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+              className="block transform transition-all duration-300 hover:scale-105 hover:shadow-2xl rounded-xl"
             >
-              <div className="relative overflow-hidden rounded-lg shadow-lg">
+              <div className="relative overflow-hidden rounded-lg ">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -97,13 +97,15 @@ const Projects = () => {
                   height={450}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-center p-4">
+                <div className="absolute inset-0 bg-[#000] bg-opacity-80 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white font-semibold text-center p-4">
                   <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-sm">{project.description}</p>
+                  <p className="text-md">{project.description}</p>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mt-2">{project.title}</h3>
-              <p className="mt-2">{project.description}</p>
+              <h3 className=" lg:px-8 px-4 py-4 text-xl font-semibold ">
+                {project.title}
+              </h3>
+              <p className=" lg:px-8  px-4 py-4 ">{project.description}</p>
             </Link>
           </motion.div>
         ))}
