@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="border-t  py-4 px-6 text-gray-600 dark:text-gray-400">
       <div className="flex justify-between items-center">
-        <div className="flex space-x-4 ">
+        <div className=" flex space-x-4 ">
           <Link href="/projects">
             <span className="hover:text-black dark:hover:text-white">
               Projects
@@ -16,7 +16,7 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-        <p className="text-sm ">
+        <p className="text-sm ml-6 md:ml-0">
           &copy; {new Date().getFullYear()} Dabs. All rights reserved.
         </p>
       </div>
