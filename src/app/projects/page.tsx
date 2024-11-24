@@ -87,15 +87,15 @@ const Projects = () => {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="block transform transition-all duration-300 hover:scale-105 hover:shadow-2xl rounded-xl"
+              className="block transform transition-all duration-300 hover:scale-105 hover:shadow-2xl rounded-xl bg-gray-100 text-black"
             >
-              <div className="relative overflow-hidden rounded-lg ">
+              <div className="relative overflow-hidden ">
                 <Image
                   src={project.image}
                   alt={project.title}
                   width={800}
                   height={450}
-                  className="transition-transform duration-300 group-hover:scale-110"
+                  className="transition-transform duration-300 group-hover:scale-110 rounded-t-xl"
                 />
                 <div className="absolute inset-0 bg-[#000] bg-opacity-80 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white font-semibold text-center p-4">
                   <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
