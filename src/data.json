@@ -1,5 +1,17 @@
     {
     "projects":[
+      {
+        "image": "wogaa",
+        "title": "WOGAA",
+        "description": "Word of God Abundant Assembly. ",
+        "demo": "https://www.wogaa.org/"
+      },
+      {
+        "image": "pacman",
+        "title": "Pacman (using arrow keys)",
+        "description": "In this game, the objective is to eat all the dots (pellets) while avoiding four ghosts.",
+        "demo": "https://favydabs.github.io/Pac-man_Game/"
+      },
 
      {
       "image": "counter",
@@ -36,12 +48,7 @@
       "title": "To-Do-List-App",
       "description": "To-Do List App helps you manage your daily activities. The app makes it easy to create, prioritize, and track your to-do items with just a few taps.",
       "demo": "https://favydabs.github.io/to-do-list-web2acx/"
-    },
-    {
-      "image": "pacman",
-      "title": "Pacman (using arrow keys)",
-      "description": "In this game, the objective is to eat all the dots (pellets) while avoiding four ghosts.",
-      "demo": "https://favydabs.github.io/Pac-man_Game/"
     }
+  
   ]
 }

@@ -10,9 +10,16 @@ import {
   bankApp,
   todo,
   pacman,
+  // wogaa,
 } from "@/src/app/components/Images";
 
 const projects = [
+  // {
+  //   image: wogaa,
+  //   title: "WOGAA",
+  //   description: "Word of God Abundant Assembly. ",
+  //   demo: "https://wogaa.org",
+  // },
   {
     image: counter,
     title: "Passenger-Counter-App",
@@ -93,8 +100,8 @@ const Projects = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={800}
-                  height={450}
+                  width={500}
+                  height={400}
                   className="transition-transform duration-300 group-hover:scale-110 rounded-t-xl"
                 />
                 <div className="absolute inset-0 bg-[#000] bg-opacity-80 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white font-semibold text-center p-4">
@@ -102,7 +109,7 @@ const Projects = () => {
                   <p className="text-md">{project.description}</p>
                 </div>
               </div>
-              <h3 className=" lg:px-8 px-4 py-4 text-xl font-semibold ">
+              <h3 className=" lg:px-8 px-4 mt-2  text-xl font-semibold ">
                 {project.title}
               </h3>
               <p className=" lg:px-8  px-4 py-4 ">{project.description}</p>

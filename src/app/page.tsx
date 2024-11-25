@@ -4,8 +4,8 @@ import About from "./about/page";
 const Home = () => {
   return (
     <>
-      <Projects />
       <About />
+      <Projects />
     </>
   );
 };
